@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    height: 50px;
+    font-size: xx-large;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    align-content: space-around;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    margin: 2px 40px;
+}
+.nav-bar a:hover{
+    background-color: green;
+}
+.title{
+    position: relative;
+    top: 100px;
+    
+}
+.btn{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+}
+.logo a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.logo:hover{ 
+    background-color: green;
+    color: white;
+}
+.nav-bar a{
+    padding: 10px;
+    margin-left: 20px;
+    align-content: space-between;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+.nav-bar:hover{
+    color: white;
+}
+.header{
+    color: green;
+    text-align: center;
+    font-family: cursive; 
+    border-bottom: 5px green solid;
+    
+}
+.landingpage{
+    padding: 30px;
+    background-image: url(./Images/sunny-meadow-landscape.jpg);
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70vh;
+}
+.landingpage h1{
+    text-align: center;
+}
+.landingpage h3{
+    text-align: center;
+}
+.motto{
+    margin-bottom: auto;
+}
+.vision-mission{
+    text-align: center;
+}
+.about-down-page{
+    background-image: url(./Images/poultry\ farm.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+ul li{
+    color: white;
+    background-color: black;
+    border: solid black;
+    margin-right: 35px;
+}
+.home-landing-page{
+    background-image: url(./Images/high-angle-farmland-view.jpg);
+    background-repeat: no-repeat;
+    height: 70vh;
+    background-size: 100% 100%;
+}
+.home-landing-page h1{
+    text-align: center;
+}
+.home-landing-page h3{
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.contact-landing-page{
+    background-image: url(./Images/portrait-african-american-worker-holding-fresh-green-lettuce-grown-hydroponic-controlled-enviroment-delivery-smiling-woman-showing-freshly-harvested-salad-grown-modern-greenhouse.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 70vh;
+}
+.contact-head{position: relative;
+    top: 70px;
+    color: black;
+    text-align: center;
+}
+.model-landing-page{
+    height: 70vh;
+    background-image: url(./Images/green-tea-bud-leaves-green-tea-plantations-morning.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.model-landing-page h1{
+    color: black;
+    text-align: center;
+}
+.model-landing-page h3{
+    text-align: center;
+    color: black;
+}
+.model-text-head{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+.model-text-body{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.team-landing-page{
+    height: 70vh;
+    background-image: url(./Images/strawberry-field.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.team-landing-page h1{
+    text-align: center;
+    color: black;
+}
+.team-landing-page h3{
+    text-align: center;
+    color: black;
+}
+.achievement-landing-page{
+    height: 70vh;
+    background-image: url(./Images/large-green-rice-field-with-green-rice-plants-rows.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.achievement-landing-page h1{
+    text-align: center;
+}
+.achievement-landing-page h3{
+    text-align: center;
+}
+.sec{
+    height: 320px;
+    border: 2px green solid;
+    margin: 0 5px;
+}
+
+footer{
+    height: 230px;
+    background-color: black;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.services{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 10%;   
+}
+.text-lead{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10%;
+}
+.service-body{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0 10%;
+}
+.last-body{
+    margin-left: 20px;
+}
+.socials-footer a{
+    text-decoration: none;
+    color: white;
+}
+.company-footer a{
+    text-decoration: none;
+    color: white;
+}
+
